@@ -6,6 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace SoedTestMem.Droid
 {
@@ -20,6 +23,8 @@ namespace SoedTestMem.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+
+            AppCenter.Start("android=ce8671b4-0d63-418d-9d56-4490054c835c;", typeof(Analytics), typeof(Crashes));
         }
     }
 }
