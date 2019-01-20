@@ -1,0 +1,10 @@
+/SoedTestMem/.vs
+/SoedTestMem/SoedTestMem/SoedTestMem/bin
+/SoedTestMem/SoedTestMem/SoedTestMem/obj
+/SoedTestMem/SoedTestMem/SoedTestMem.Android/bin
+/SoedTestMem/SoedTestMem/SoedTestMem.Android/obj
+/SoedTestMem/SoedTestMem/SoedTestMem.iOS/bin
+/SoedTestMem/SoedTestMem/SoedTestMem.iOS/obj
+/SoedTestMem/SoedTestMem/SoedTestMem.UWP/bin
+/SoedTestMem/SoedTestMem/SoedTestMem.UWP/obj
+/SoedTestMem/SoedTestMem/SoedTestMem/*.user
